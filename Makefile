@@ -4,6 +4,9 @@ dev:
 dev-down:
 	docker-compose down
 
+start-server:
+	air
+
 install-modules:
 	go get github.com/gofiber/fiber/v2
 	go get github.com/google/uuid
